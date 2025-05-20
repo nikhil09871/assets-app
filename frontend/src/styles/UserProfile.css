@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Container for the profile form */
+.user-profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/login_background.jpg') no-repeat center center/cover; /* Background image */
+  background-size: cover;
+}
+
+/* Content section within the container */
+.user-profile-content {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+}
+
+/* Header styling */
+.user-profile-content h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Form input field styling */
+.input-field {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Submit button styling */
+.submit-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+/* Skip button styling */
+.skip-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.skip-button:hover {
+  background-color: #e53935;
+}
